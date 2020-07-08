@@ -55,7 +55,7 @@ def create_train_split_baseline_dataset(dataset, val_size=0.2, random_state=3):
     dataset2 = pd.concat([dataset2, violation_code_dummy, inspector_dummy], axis=1)
 
 
-def create_train_split_final_dataset(dataset, val_size=0.2, random_state=3):
+def create_train_val_split(dataset, val_size=0.2, random_state=3):
     '''
     Develops dataset to be used in final models.
     

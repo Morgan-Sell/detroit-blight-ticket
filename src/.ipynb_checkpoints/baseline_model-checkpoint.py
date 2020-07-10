@@ -37,7 +37,7 @@ def create_train_split_baseline_dataset(dataset, val_size=0.2, random_state=3):
     
     return X_train, X_val, y_train, y_val
 
-def fit_baseline_model_produce_y_probs(X_train, X_val, y_train, y_val, max_depth=5, num_trees=20, cv=5)
+def fit_baseline_model_produce_y_probs(X_train, X_val, y_train, y_val, max_depth=5, num_trees=20, cv=5):
     '''
     Uses RandomForest Classifier and cross validation to produce the probabilities of the x validation
     

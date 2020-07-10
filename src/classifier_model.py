@@ -10,7 +10,7 @@ def create_bool_col(x, val):
 
 
 
-def blight_model():
+def blight_optimized_model():
     '''
     Model imports and processes training.
     Selected features are the results of feature engineering/evaluation performed in the supervised_ml.ipynb and which features were used in the test dataset.
